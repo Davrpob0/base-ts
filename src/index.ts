@@ -3,7 +3,6 @@ import { Application, Response, Request } from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
 import logger from 'morgan'
-import passport from 'passport'
 
 // Modules
 import usuario from  './routes/usuario'
@@ -11,18 +10,6 @@ import usuario from  './routes/usuario'
 const swaggerUi = require('swagger-ui-express')
 
 const app: Application = express()
-
-/** Passport */
-passport.serializeUser((user, cb) => {
-  cb(null, user);
-});
-
-passport.deserializeUser((obj, cb) => {
-  cb(null, obj);
-});
-
-app.use(passport.initialize());
-app.use(passport.session());
 
 /** Cors */
 if (process.env.NODE_ENV === 'production') {

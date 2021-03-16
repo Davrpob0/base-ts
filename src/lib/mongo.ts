@@ -8,7 +8,7 @@ export class MongoDb implements IMongoDBConfig {
   auth: boolean = false
   dbHost: string = 'localhost'
   dbPort: number | string = 27017
-  dbName: string = 'business'
+  dbName: string = 'example'
   dbUser?: string | null = null
   dbPassword?: string | null = null
 

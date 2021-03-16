@@ -1,6 +1,6 @@
-import Business from '../schemas/SchemaUsuario'
+import Usuario from '../schemas/SchemaUsuario'
 import MainService from './MainService'
 
-class BusinessService extends MainService {}
+class UsuarioService extends MainService {}
 
-export default new BusinessService(Business)
+export default new UsuarioService(Usuario)
