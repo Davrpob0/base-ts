@@ -1,5 +1,5 @@
 {
-  "name": "business.api",
+  "name": "base-ts",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,22 +11,19 @@
     "test": "cross-env NODE_ENV=development jest --runInBand",
     "start": "cross-env NODE_ENV=production node ./dist/server.js",
     "lint": "tslint -c tslint.json -p tsconfig.json --fix",
-    "build": "cross-env NODE_ENV=production tsc",
-    "deploy": "npm run docker-build && npm run docker-push",
-    "docker-build": "npm test && npm run build && docker build -t registry.gitlab.com/simplecol/business/business-api .",
-    "docker-push": "docker push registry.gitlab.com/simplecol/business/business-api"
+    "build": "cross-env NODE_ENV=production tsc"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/simplecol/business/business-api.git"
+    "url": "git+https://github.com/NATALIAGJ/base-ts.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/simplecol/business/business-api.git#issues"
+    "url": "https://github.com/NATALIAGJ/base-ts.git#issues"
   },
-  "homepage": "https://gitlab.com/simplecol/business/business-api.git#readme",
+  "homepage": "https://github.com/NATALIAGJ/base-ts.git#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
