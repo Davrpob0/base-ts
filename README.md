@@ -9,10 +9,10 @@ Esta guia tiene como fin entregar al usuario el paso a paso para llevar a cabo l
 Para la ejecución del proyecto serán necesarias las siguientes herramientas.
 
 ``` 
-  * Git (https://git-scm.com/download/)
-  * Node Js lts (https://nodejs.org/es/download/)
-  * Mongo (https://www.mongodb.com/try/download/community)
-  * IDE. Opcional (https://code.visualstudio.com/)
+  * [Git](https://git-scm.com/download/)
+  * [Node Js lts](https://nodejs.org/es/download/)
+  * [Mongo](https://www.mongodb.com/try/download/community)
+  * [IDE.Opcional](https://code.visualstudio.com/)
 ```
 
 ### Instalación ⛏️ 
