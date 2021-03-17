@@ -12,7 +12,8 @@ Para la ejecución del proyecto serán necesarias las siguientes herramientas.
   * [Git](https://git-scm.com/download/)
   * [Node Js lts](https://nodejs.org/es/download/)
   * [Mongo](https://www.mongodb.com/try/download/community)
-  * [IDE.Opcional](https://code.visualstudio.com/)
+  [IDE.Opcional](https://code.visualstudio.com/)
+  [DevelopmentFiles](https://github.com/dbsolution-computacion-e-informatica/junngla-qri-api-service/tree/master/dev/docs/api/DevEnvironments),
 ```
 
 ### Instalación ⛏️ 
