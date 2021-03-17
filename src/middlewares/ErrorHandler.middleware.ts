@@ -1,6 +1,8 @@
 import { errors } from '../constants/index';
 
 const handleError = async (error: any, next: (Function)) => {
+  console.log(error);
+  
   if (errors[error.name  as keyof object]) {    
     const standard_error = errors[error.name as keyof object] as any;
     error.status_code = standard_error.code;

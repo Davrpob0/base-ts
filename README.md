@@ -1,5 +1,5 @@
 # base-ts
-
+Este proyecto presenta un crud en node js con la finalidad de realizar pruebas unitarias con jest.
 
 ## Empezando 🚀 
 Esta guia tiene como fin entregar al usuario el paso a paso para llevar a cabo la ejecución del proyecto base-ts. Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
@@ -9,11 +9,10 @@ Esta guia tiene como fin entregar al usuario el paso a paso para llevar a cabo l
 Para la ejecución del proyecto serán necesarias las siguientes herramientas.
 
 ``` 
-  * Git
-  * Node Js
-  * Typescript
-  * Mongo
-  * Postman
+  * Git (https://git-scm.com/download/)
+  * Node Js lts (https://nodejs.org/es/download/)
+  * Mongo (https://www.mongodb.com/try/download/community)
+  * IDE. Opcional (https://code.visualstudio.com/)
 ```
 
 ### Instalación ⛏️ 
