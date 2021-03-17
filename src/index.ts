@@ -3,6 +3,7 @@ import { Application, Response, Request } from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
 import logger from 'morgan'
+import bodyParser from 'body-parser'
 
 // Modules
 import usuario from  './routes/usuario'
@@ -10,6 +11,9 @@ import usuario from  './routes/usuario'
 const swaggerUi = require('swagger-ui-express')
 
 const app: Application = express()
+
+app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.json())
 
 /** Cors */
 if (process.env.NODE_ENV === 'production') {

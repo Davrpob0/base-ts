@@ -58,8 +58,6 @@ export default class CrudFactory {
        */
       async create (req: Request, res: any, next: NextFunction) {
         try {
-          console.log(req);
-          
           const { body } = req
           console.log('body;:::: ', body);
           

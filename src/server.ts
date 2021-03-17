@@ -1,5 +1,4 @@
 import { Request, Response, NextFunction }  from 'express'
-
 import chalk from 'chalk'
 import MongoDb from './lib/mongo'
 import logger from './lib/logger'
