@@ -37,14 +37,9 @@ Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de de
         └── .env
 
 7. Se debe crear el archivo .env y es una copia del archivo .env-example con los valores reales.
-8. Compilar el typescript.
+8. Para ejecutar el aplicativo en desarrollo escriba el siguiente comando.
     ```sh
-        [base-ts] $  npm run build-ts
-    ```
-
-9. Para ejecutar el aplicativo en desarrollo escriba los siguientes comando.
-    ```sh
-        [base-ts] $  npm run watch
+        [base-ts] $  npm run dev
     ```
 ## Configuración del entorno de pruebas 🛠️ 
 
@@ -58,19 +53,16 @@ Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de de
     Ditribución de alto nivel de las carpetas
 
     .
-    ├── dist
-    ├── docs
     ├── node_modules 
     ├── src
-    ├── .env
     ├── .env-example
     ├── .gitignore
-    ├── package.json
-    ├── package-lock.json
     ├── README.md
+    ├── jest.conf.js
+    ├── package.json
+    ├── swagger.json
     ├── tsconfig.json
     └── tslint.json
-
     
 ## Construcción:  🔩⚙️
 
