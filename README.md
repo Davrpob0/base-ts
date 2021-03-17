@@ -13,13 +13,16 @@ Para la ejecución del proyecto serán necesarias las siguientes herramientas.
   * [Mongo](https://www.mongodb.com/try/download/community)
   * [IDE.Opcional](https://code.visualstudio.com/)
 
-### Instalación ⛏️ 
+Comprobar el funcionamiento de cada una, luego de instalar abrir una nueva terminal y consultar la version por cada una:
+  * git --version
+  * node --version
+### Instalación ⛏️ 🛠️ 
 
 Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de desarrollo.
 
 1. Clonar el proyecto
     ```sh
-        $ git clone (https://github.com/NATALIAGJ/base-ts.git)
+        $ git clone https://github.com/NATALIAGJ/base-ts.git
     ```
 2. Ir al folder base-ts
     ```sh
@@ -34,18 +37,11 @@ Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de de
         .
         └── .env
 
-7. Se debe crear el archivo .env y es una copia del archivo .env-example con los valores reales.
+7. Se debe crear el archivo .env y es una copia del archivo .env-example.
 8. Para ejecutar el aplicativo en desarrollo escriba el siguiente comando.
     ```sh
         [base-ts] $  npm run dev
     ```
-## Configuración del entorno de pruebas 🛠️ 
-
-1. La coleccion de postman se encuentra en la siguiente ruta: 
-['./docs/base-ts.postman_collection.json']
-
-3. Crear una variable de entorno en postman, var host: http://localhost:8080/v1
-
 # Esquema de archivos 📁
 
     Ditribución de alto nivel de las carpetas
