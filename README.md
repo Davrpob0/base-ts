@@ -66,17 +66,19 @@ Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de de
 
 Construir el backend de una aplicación que permita, consultar una lista de usuarios, consultar un usuario, crearlo, crear múltiples usuarios en una sola petición, editar un usuario, eliminarlo e inactivar.
 
-Formulario
-	Nombre
-	Apellido
-	Correo
-	Contacto: 
-		Teléfono fijo
-		Celular
-		Página web
-	Ubicación:
-		Ciudad
-		Dirección
+```
+    Formulario
+        Nombre
+        Apellido
+        Correo
+        Contacto: 
+            Teléfono fijo
+            Celular
+            Página web
+        Ubicación:
+            Ciudad
+            Dirección
+```
 
 ## Versionamiento
 
