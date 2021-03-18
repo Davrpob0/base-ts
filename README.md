@@ -1,6 +1,5 @@
 # base-ts
 Este proyecto presenta un crud en node js con la finalidad de realizar pruebas unitarias con jest.
-
 ## Empezando 🚀 
 Esta guia tiene como fin entregar al usuario el paso a paso para llevar a cabo la ejecución del proyecto base-ts. Estas instrucciones le proporcionarán una copia del proyecto en funcionamiento en su máquina local para fines de desarrollo y prueba.
 
@@ -62,6 +61,22 @@ Una serie de ejemplos paso a paso que le indican cómo ejecutar un entorno de de
 
 * [Express](https://expressjs.com/es/) - Framework usado
 * [TypeScript](https://www.typescriptlang.org/) - Lenguaje de programación
+
+## Requerimientos: ✨📃
+
+Construir el backend de una aplicación que permita, consultar una lista de usuarios, consultar un usuario, crearlo, crear múltiples usuarios en una sola petición, editar un usuario, eliminarlo e inactivar.
+
+Formulario
+	Nombre
+	Apellido
+	Correo
+	Contacto: 
+		Teléfono fijo
+		Celular
+		Página web
+	Ubicación:
+		Ciudad
+		Dirección
 
 ## Versionamiento
 

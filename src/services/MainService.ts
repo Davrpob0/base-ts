@@ -59,8 +59,6 @@ export default class MainService implements IService {
    * @param {array} data
    */
   async create (data: any = {}) {
-    console.log(data);
-    
     const element = new this.schema({
       ...data,
       id: this.getUniqueId(),

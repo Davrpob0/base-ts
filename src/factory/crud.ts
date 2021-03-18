@@ -54,13 +54,11 @@ export default class CrudFactory {
        * @param {*} res
        * @param {*} next
        * 
-       * @method GET
+       * @method POST
        */
       async create (req: Request, res: any, next: NextFunction) {
         try {
           const { body } = req
-          console.log('body;:::: ', body);
-          
           const saved = await service.create(body)
           res.status(201).json({
             payload: saved
