@@ -26,5 +26,63 @@ export default class MainService implements IService {
     return uuid.v4()
   }
 
- 
+  /**
+   * Create Many
+   * @param {array} data
+   */
+  async createMany (data: any = []) {
+    
+  }
+
+  /**
+   * Create One
+   * @param {array} data
+   */
+  async create (data: any = {}) {
+    
+  }
+
+  /**
+   * GetAll
+   * @param {object} query
+   * @param {object} cursor
+   * @param {object} select
+   */
+  async getAll (query = {}, select = {}, cursor = {}) {
+    
+  }
+
+  /**
+   * Detail
+   * @param {object} key
+   * @param {object} select
+   */
+  async detail (key = {}, select = {}) {
+    
+  }
+
+  /**
+   * Update
+   * @param {object} key
+   * @param {object} data
+   */
+  async update (key = {}, data = {}) {
+    
+  }
+
+  /**
+   * Inactivate
+   * @param {object} key
+   */
+  async inactivate (key = {}) {
+    
+  }
+
+  /**
+   * Delete
+   * @param {object} key
+   */
+  async delete (key = {}) {
+    
+  }
 }
