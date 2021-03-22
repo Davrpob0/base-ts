@@ -6,7 +6,6 @@ import logger from 'morgan'
 import bodyParser from 'body-parser'
 
 // Modules
-import usuario from  './routes/usuario'
 
 const swaggerUi = require('swagger-ui-express')
 
@@ -42,6 +41,5 @@ const swaggerDoc = require('../swagger.json')
 app.use('/v1/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDoc))
 
 // Router
-app.use('/v1/usuario', usuario)
 
 export default app
